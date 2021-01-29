@@ -39,7 +39,7 @@ Example:
 
 | URI         | Verb | Request Body                                                 | HTTP response code                 | Description                                                |
 | ----------- | ---- | ------------------------------------------------------------ | ---------------------------------- | ---------------------------------------------------------- |
-| `/transfer` | POST | `{<br/>"srcAccId": <source account id>, <br/>"destAccId": <destination account id>, <br/>"amount": <amount to transfer><br/>}` | Success: 200<br/>Failed: 400 / 500 | Transfer amount from source account to destination account |
+| `/transfer` | POST | `{"srcAccId": <source account id>, "destAccId": <destination account id>, "amount": <amount to transfer>}` | Success: 200<br/>Failed: 400 / 500 | Transfer amount from source account to destination account |
 
 
 Example:
