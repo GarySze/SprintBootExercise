@@ -1,5 +1,7 @@
-# Overview
 
+[![Actions](https://github.com/GarySze/SprintBootExercise/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/GarySze/SprintBootExercise/actions)
+
+# Overview
 This is an **Java 11** RESTful web service built with **Spring Boot framework** + **H2 in file database** using **Gradle**.
 
 # Getting started
