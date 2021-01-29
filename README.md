@@ -14,7 +14,7 @@ To test that it works, open a browser tab at http://localhost:8080.
 
 Alternatively, you can run
 
-    curl http://localhost:8080
+    curl -s http://localhost:8080
 
 # Build & Test
 
@@ -33,7 +33,7 @@ Build the jar package and run the JUnit test cases that cover both RESTFul APIs 
 
 Example:
 
-    curl http://localhost:8080/accounts
+    curl -s http://localhost:8080/accounts
 
 ### API - Transfer amount between bank accounts
 
@@ -44,7 +44,7 @@ Example:
 
 Example:
 
-    curl -X POST -H "Content-type: application/json" -d "{\"srcAccId\" : \"12345678\", \"destAccId\" : \"88888888\", \"amount\" : 100}" "http://localhost:8080/transfer"
+    curl -s -X POST -H "Content-type: application/json" -d '{"srcAccId" : "12345678", "destAccId" : "88888888", "amount" : 100}' "http://localhost:8080/transfer"
 
 ### Note: HTTP response code for failed request
 
