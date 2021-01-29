@@ -50,7 +50,7 @@ Example:
 
 ### Note: HTTP response code for failed request
 
-There are 2 different response errors according to source of the problem:
+There are 2 different response codes according to source of the problem:
 
 * **400 (Client side exception)**: When client sent an invalid request. This can be fixed by client.
 * **500 (Server side exception**): Server failed to fulfill a valid request due to an error with server, for example DB access problem.
